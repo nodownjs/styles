@@ -1,0 +1,69 @@
+[data-theme=light] :root {
+  color-scheme: light;
+}
+[data-theme=light] #nodown-render table td,
+[data-theme=light] #nodown-render table th {
+  background-color: rgba(0, 0, 0, 0.02);
+  border-color: rgba(0, 0, 0, 0.05);
+}
+[data-theme=light] #nodown-render table thead {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+[data-theme=light] #nodown-render a {
+  color: #665bde;
+}
+[data-theme=light] #nodown-render h1,
+[data-theme=light] #nodown-render h2 {
+  border-bottom-color: rgba(0, 0, 0, 0.075);
+}
+[data-theme=light] #nodown-render code {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+[data-theme=light] #nodown-render pre {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+[data-theme=light] #nodown-render blockquote {
+  border-left-color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.625);
+}
+[data-theme=light] #nodown-render .nodown-alert.warning {
+  border-color: rgba(200, 150, 0, 0.8);
+  background-color: rgba(200, 150, 0, 0.2);
+}
+[data-theme=light] #nodown-render .nodown-alert.success {
+  border-color: rgba(100, 200, 100, 0.8);
+  background-color: rgba(100, 200, 100, 0.2);
+}
+[data-theme=light] #nodown-render .nodown-alert.error {
+  border-color: rgba(255, 150, 150, 0.8);
+  background-color: rgba(255, 150, 150, 0.2);
+}
+[data-theme=light] #nodown-render .nodown-alert.info {
+  border-color: rgba(150, 150, 255, 0.8);
+  background-color: rgba(150, 150, 255, 0.2);
+}
+[data-theme=light] #nodown-render .nodown-alert.question {
+  border-color: rgba(175, 150, 255, 0.8);
+  background-color: rgba(175, 150, 255, 0.2);
+}
+[data-theme=light] #nodown-render hr {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+[data-theme=light] #nodown-render code.nodown-unicode .nodown-preview {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+[data-theme=light] #nodown-render .nodown-date {
+  border-color: rgba(0, 0, 0, 0.075);
+}
+[data-theme=light] #nodown-render section#footnotes li {
+  color: rgba(0, 0, 0, 0.5);
+}
+[data-theme=light] #nodown-render a.nodown-footnote-ref:target::before,
+[data-theme=light] #nodown-render li.nodown-footnote:target::before {
+  border-color: #665bde;
+}
+[data-theme=light] #nodown-render * {
+  scrollbar-color: black transparent;
+}
+
+/*# sourceMappingURL=theme-light.css.map */

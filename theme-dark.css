@@ -1,0 +1,66 @@
+[data-theme=dark] :root {
+  color-scheme: dark;
+}
+[data-theme=dark] #nodown-render table td,
+[data-theme=dark] #nodown-render table th {
+  background-color: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.05);
+}
+[data-theme=dark] #nodown-render table thead {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+[data-theme=dark] #nodown-render a {
+  color: #00a8fc;
+}
+[data-theme=dark] #nodown-render h1,
+[data-theme=dark] #nodown-render h2 {
+  border-bottom-color: rgba(255, 255, 255, 0.05);
+}
+[data-theme=dark] #nodown-render code {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+[data-theme=dark] #nodown-render pre {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+[data-theme=dark] #nodown-render blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.625);
+}
+[data-theme=dark] #nodown-render .nodown-alert.warning {
+  border-color: rgba(200, 150, 0, 0.4);
+  background-color: rgba(200, 150, 0, 0.1);
+}
+[data-theme=dark] #nodown-render .nodown-alert.success {
+  border-color: rgba(100, 200, 100, 0.4);
+  background-color: rgba(100, 200, 100, 0.1);
+}
+[data-theme=dark] #nodown-render .nodown-alert.error {
+  border-color: rgba(255, 150, 150, 0.4);
+  background-color: rgba(255, 150, 150, 0.1);
+}
+[data-theme=dark] #nodown-render .nodown-alert.info {
+  border-color: rgba(150, 150, 255, 0.4);
+  background-color: rgba(150, 150, 255, 0.1);
+}
+[data-theme=dark] #nodown-render .nodown-alert.question {
+  border-color: rgba(175, 150, 255, 0.4);
+  background-color: rgba(175, 150, 255, 0.1);
+}
+[data-theme=dark] #nodown-render hr {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+[data-theme=dark] #nodown-render code.nodown-unicode .nodown-preview {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+[data-theme=dark] #nodown-render .nodown-date {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+[data-theme=dark] #nodown-render section#footnotes li {
+  color: rgba(255, 255, 255, 0.5);
+}
+[data-theme=dark] #nodown-render a.nodown-footnote-ref:target::before,
+[data-theme=dark] #nodown-render li.nodown-footnote:target::before {
+  border-color: #00a8fc;
+}
+
+/*# sourceMappingURL=theme-dark.css.map */
